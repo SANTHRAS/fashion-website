@@ -1,0 +1,139 @@
+/* General Reset */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.navbar .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar nav ul {
+    list-style: none;
+    float: right;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar nav ul li a.buy-now {
+    color: #fff;
+    background-color: #ff5f57;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero .container h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero .container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .cta-buttons a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.hero .cta-buttons .btn-primary {
+    background-color: #ff5f57;
+}
+
+.hero .cta-buttons .btn-secondary {
+    background-color: #555;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-us .container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-us .container p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.about-us .btn-primary {
+    padding: 10px 20px;
+    background-color: #ff5f57;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services .container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.services .service-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services .service-item {
+    width: 30%;
+    text-align: center;
+}
+
+.services .service-item img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.services .service-item h3 {
+    font-size: 1.2em;
+}
